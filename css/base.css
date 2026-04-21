@@ -1,0 +1,14 @@
+html, body {
+    font-family: Righteous;
+    margin: 0;
+    background-color: rgb(35, 35, 35);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Righteous;
+    src: url(../fonts/Righteous/Righteous-Regular.ttf);
+}
