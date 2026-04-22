@@ -1,7 +1,7 @@
 html, body {
     font-family: Righteous;
     margin: 0;
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(255, 255, 255);
 }
 
 * {
@@ -11,4 +11,5 @@ html, body {
 @font-face {
     font-family: Righteous;
     src: url(../fonts/Righteous/Righteous-Regular.ttf);
+    color: white;
 }
