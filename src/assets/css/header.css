@@ -16,12 +16,12 @@ div {
     padding: 20px;
 }
 
-a {
+.right a {
     margin: 10px;
     transition: 0.4s;
 }
 
-a:hover {
+.right a:hover {
     transform: scale(1.1);
 }
 
@@ -38,7 +38,8 @@ img {
     justify-content: left;
 }
 
-#menu {
+.menu {
+    z-index: 100;
     border: none;
     background-color: rgb(0, 0, 0);
     color: white;
@@ -51,7 +52,44 @@ img {
     transition: 0.5s;
 }
 
-#menu:hover {
+.menu:hover {
+    transform: scale(1.1);
+}
+
+.items {
+    overflow: hidden;
+    height: 60%;
+    width: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.items.active {
+    overflow: hidden;
+    height: 60%;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.items a {
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    transition: 0.4s;
+    white-space: nowrap;
+}
+
+.items a:hover {
     transform: scale(1.1);
 }
 
