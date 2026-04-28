@@ -11,7 +11,7 @@ section {
 .sectionone {
     height: 100%;
     width: 100%;
-    background-color: rgb(95, 75, 130);
+    background-color: rgb(255, 211, 65);
     flex: 5;
     border-radius: 100px;
 }

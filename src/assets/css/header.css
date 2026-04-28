@@ -4,7 +4,7 @@ header {
     display: flex;
     position: sticky;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: transparent;
     backdrop-filter: blur(10px);
 }
 
@@ -48,11 +48,11 @@ img {
     border-radius: 30px;
     cursor: pointer;
     margin: 15px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 #menu:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 .right {
