@@ -19,3 +19,10 @@ btncadastro.addEventListener("click", function() {
     btnlogin.classList.remove("active");
     btncadastro.classList.add("active");
 });
+
+
+const voltar = document.getElementById("voltar");
+
+voltar.addEventListener("click", function() {
+    window.location.href = "../../public/index.html";
+});

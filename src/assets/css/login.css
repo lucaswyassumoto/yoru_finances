@@ -8,8 +8,7 @@ html, body {
 
 .auth-box {
     background-color: rgba(0, 0, 0, 0.1);
-    width: 25%;
-    height: 50%;
+    padding: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,22 +60,25 @@ form {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    width: 60%;
+    width: 80%;
 }
 
 .form-group label {
-    font-size: 0.8vw;
+    font-size: 13px;
 }
 
 .form-group input {
     outline: none;
     border: 1px solid rgb(0, 0, 0);
     background-color: transparent;
+    font-family: Righteous;
+    font-size: 12px;
+    font-weight: 100;
 }
 
 .btnlogar {
     font-family: Righteous;
-    font-size: 1.1vw;
+    font-size: 16px;
     border: none;
     padding: 10px 20px;
     background-color: black;
@@ -84,4 +86,28 @@ form {
     border-radius: 100px;
     margin: 10px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnlogar:hover {
+    transform: scale(1.08);
+}
+
+#voltar {
+    border: none;
+    outline: none;
+    font-family: Righteous;
+    font-size: 12px;
+    font-weight: 100;
+    background-color: rgb(186, 186, 186);
+    padding: 5px 10px;
+    margin: 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#voltar:hover {
+    transform: scale(1.08);
+    background-color: white
 }

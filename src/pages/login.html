@@ -38,18 +38,30 @@
         <form action="" id="formcadastro" style="display: none;">
 
             <div class="form-group">
-                <label for="usuario">Usuário ou e-mail</label>
-                <input type="text" id="usuario" maxlength="100">
+                <label for="email">Insira seu e-mail</label>
+                <input type="email" id="email" maxlength="150">
             </div>
 
-            <div class="form-group">
-                <label for="senha-hash">Senha</label>
+            <div class="form-group">    
+                <label for="username">Crie seu nome de usuário</label>
+                <input type="text" id="username">
+            </div>
+
+            <div class="form-group">    
+                <label for="senha-hash">Crie uma senha</label>
                 <input type="password" id="senha-hash">
+            </div>
+
+            <div class="form-group">    
+                <label for="senha-confirm">Repita sua senha</label>
+                <input type="password" id="senha-confirm">
             </div>
 
             <button class="btnlogar">Criar</button>
 
         </form>
+
+        <button id="voltar">Voltar</button>
 
     </div>
     
