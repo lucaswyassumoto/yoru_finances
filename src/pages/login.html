@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../public/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <title>Yoru Finances - Login</title>
+</head>
+<body>
+
+    <div class="auth-box">
+
+        <div class="tabs">
+            <button id="btnlogin" class="active">Login</button>
+            <button id="btncadastro">Cadastro</button>
+        </div>
+
+
+        <form action="" id="formlogin">
+
+            <div class="form-group">
+                <label for="usuario">Usuário ou e-mail</label>
+                <input type="text" id="usuario" maxlength="100">
+            </div>
+
+            <div class="form-group">
+                <label for="senha-hash">Senha</label>
+                <input type="password" id="senha-hash">
+            </div>
+
+            <button class="btnlogar">Entrar</button>
+
+        </form>
+
+
+        <form action="" id="formcadastro" style="display: none;">
+
+            <div class="form-group">
+                <label for="usuario">Usuário ou e-mail</label>
+                <input type="text" id="usuario" maxlength="100">
+            </div>
+
+            <div class="form-group">
+                <label for="senha-hash">Senha</label>
+                <input type="password" id="senha-hash">
+            </div>
+
+            <button class="btnlogar">Criar</button>
+
+        </form>
+
+    </div>
+    
+
+    <script src="../assets/js/login.js"></script>
+
+</body>
+</html>
